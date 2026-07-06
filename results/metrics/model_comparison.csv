@@ -1,0 +1,3 @@
+model,score_method,roc_auc,average_precision,accuracy,precision,recall,f1_score,false_positive,false_negative
+Convolutional Autoencoder,Top 1% reconstruction error,0.7722222222222223,0.9298017515076592,0.6144578313253012,0.9696969696969696,0.5079365079365079,0.6666666666666666,1,31
+Pretrained ResNet Patch Features,Top 1% patch distance,0.9992063492063492,0.999751984126984,0.9759036144578314,0.9692307692307692,1.0,0.984375,2,0

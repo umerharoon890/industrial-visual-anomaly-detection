@@ -1,0 +1,16 @@
+category,memory_bank_path,configuration_path,image_threshold,pixel_threshold
+bottle,D:\PROJECTS\ANOMALY DETECTION\models\resnet18_memory_bank_bottle.pt,D:\PROJECTS\ANOMALY DETECTION\models\feature_detector_bottle_config.json,0.7190231680870056,0.615333616733551
+cable,D:\PROJECTS\ANOMALY DETECTION\models\resnet18_memory_bank_cable.pt,D:\PROJECTS\ANOMALY DETECTION\models\feature_detector_cable_config.json,0.8156431227922439,0.7518576383590698
+capsule,D:\PROJECTS\ANOMALY DETECTION\models\resnet18_memory_bank_capsule.pt,D:\PROJECTS\ANOMALY DETECTION\models\feature_detector_capsule_config.json,0.6895909905433655,0.5772994756698608
+carpet,D:\PROJECTS\ANOMALY DETECTION\models\resnet18_memory_bank_carpet.pt,D:\PROJECTS\ANOMALY DETECTION\models\feature_detector_carpet_config.json,0.6521247327327728,0.5907754302024841
+grid,D:\PROJECTS\ANOMALY DETECTION\models\resnet18_memory_bank_grid.pt,D:\PROJECTS\ANOMALY DETECTION\models\feature_detector_grid_config.json,0.6208982229232788,0.5506677031517029
+hazelnut,D:\PROJECTS\ANOMALY DETECTION\models\resnet18_memory_bank_hazelnut.pt,D:\PROJECTS\ANOMALY DETECTION\models\feature_detector_hazelnut_config.json,0.8422962963581084,0.7803642153739929
+leather,D:\PROJECTS\ANOMALY DETECTION\models\resnet18_memory_bank_leather.pt,D:\PROJECTS\ANOMALY DETECTION\models\feature_detector_leather_config.json,0.5970605373382568,0.5314570069313049
+metal_nut,D:\PROJECTS\ANOMALY DETECTION\models\resnet18_memory_bank_metal_nut.pt,D:\PROJECTS\ANOMALY DETECTION\models\feature_detector_metal_nut_config.json,0.8221074998378753,0.7640122771263123
+pill,D:\PROJECTS\ANOMALY DETECTION\models\resnet18_memory_bank_pill.pt,D:\PROJECTS\ANOMALY DETECTION\models\feature_detector_pill_config.json,0.7742655634880066,0.6964455842971802
+screw,D:\PROJECTS\ANOMALY DETECTION\models\resnet18_memory_bank_screw.pt,D:\PROJECTS\ANOMALY DETECTION\models\feature_detector_screw_config.json,0.8123090982437133,0.7242816090583801
+tile,D:\PROJECTS\ANOMALY DETECTION\models\resnet18_memory_bank_tile.pt,D:\PROJECTS\ANOMALY DETECTION\models\feature_detector_tile_config.json,0.7879797071218491,0.7237727642059326
+toothbrush,D:\PROJECTS\ANOMALY DETECTION\models\resnet18_memory_bank_toothbrush.pt,D:\PROJECTS\ANOMALY DETECTION\models\feature_detector_toothbrush_config.json,0.7517013490200043,0.6866161823272705
+transistor,D:\PROJECTS\ANOMALY DETECTION\models\resnet18_memory_bank_transistor.pt,D:\PROJECTS\ANOMALY DETECTION\models\feature_detector_transistor_config.json,0.7934566617012024,0.7064661979675293
+wood,D:\PROJECTS\ANOMALY DETECTION\models\resnet18_memory_bank_wood.pt,D:\PROJECTS\ANOMALY DETECTION\models\feature_detector_wood_config.json,0.7481254577636719,0.6811984777450562
+zipper,D:\PROJECTS\ANOMALY DETECTION\models\resnet18_memory_bank_zipper.pt,D:\PROJECTS\ANOMALY DETECTION\models\feature_detector_zipper_config.json,0.6209909230470657,0.516758918762207

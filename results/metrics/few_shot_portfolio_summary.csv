@@ -1,0 +1,4 @@
+shots_per_class,runs,query_images_per_run,accuracy_mean_percent,accuracy_std_percent,macro_f1_mean_percent,macro_f1_std_percent,broken_large_recall_percent,broken_small_recall_percent,contamination_recall_percent
+1,20,30.0,45.5,10.33,40.9,11.78,68.0,47.0,21.5
+5,20,30.0,65.17,9.52,64.03,11.08,76.0,66.0,53.5
+10,20,30.0,71.17,6.95,70.62,7.95,85.5,64.5,63.5

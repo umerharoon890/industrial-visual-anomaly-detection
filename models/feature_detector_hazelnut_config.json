@@ -1,0 +1,35 @@
+{
+    "category": "hazelnut",
+    "backbone": "ResNet-18",
+    "feature_layer": "layer2",
+    "image_size": 256,
+    "feature_map_size": [
+        32,
+        32
+    ],
+    "feature_dimensions": 128,
+    "memory_bank_size": 10000,
+    "image_score_method": "feature_top_1_percent",
+    "image_score_threshold": 0.8422962963581084,
+    "pixel_threshold": 0.7803642153739929,
+    "pixel_threshold_percentile": 99.5,
+    "postprocessing": {
+        "enabled": true,
+        "minimum_component_area": 64,
+        "opening_kernel_size": 3,
+        "closing_kernel_size": 5
+    },
+    "final_image_metrics": {
+        "roc_auc": 0.9900000000000001,
+        "average_precision": 0.9949759508308296,
+        "accuracy": 0.9363636363636364,
+        "precision": 1.0,
+        "recall": 0.9,
+        "f1_score": 0.9473684210526315
+    },
+    "final_pixel_metrics": {
+        "pixel_roc_auc": 0.9732802003406575,
+        "pixel_average_precision": 0.4719108402932249,
+        "defective_pixel_fraction": 0.021301963112571022
+    }
+}

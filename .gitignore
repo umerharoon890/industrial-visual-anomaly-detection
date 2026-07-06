@@ -1,0 +1,32 @@
+# Python/cache files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor/OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Dataset files are too large for GitHub
+data/raw/
+data/interim/
+data/processed/
+
+# Pretrained torch cache
+models/torch_cache/
+
+# Temporary runtime outputs
+results/cli_outputs/
+results/demo_outputs/
+temp/
+tmp/
+
+# Streamlit secrets
+.streamlit/secrets.toml

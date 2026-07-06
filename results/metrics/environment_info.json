@@ -1,0 +1,29 @@
+{
+    "project_root": "D:\\PROJECTS\\ANOMALY DETECTION",
+    "python_version": "3.11.4",
+    "python_executable": "d:\\PROJECTS\\ANOMALY DETECTION\\.venv\\Scripts\\python.exe",
+    "operating_system": "Windows-10-10.0.19045-SP0",
+    "pytorch_version": "2.5.1+cu118",
+    "torchvision_version": "0.20.1+cu118",
+    "cuda_available": true,
+    "cuda_runtime": "11.8",
+    "selected_device": "cuda",
+    "libraries": {
+        "NumPy": "2.4.4",
+        "Pandas": "3.0.3",
+        "Matplotlib": "3.11.0",
+        "Pillow": "12.2.0",
+        "OpenCV": "4.13.0",
+        "Scikit-learn": "1.9.0",
+        "Scikit-image": "0.26.0",
+        "PyTorch": "2.5.1+cu118",
+        "Torchvision": "0.20.1+cu118",
+        "TQDM": "4.68.3",
+        "PyYAML": "6.0.3"
+    },
+    "gpu": {
+        "name": "NVIDIA GeForce GTX 1050",
+        "vram_gb": 4.0,
+        "compute_capability": "6.1"
+    }
+}

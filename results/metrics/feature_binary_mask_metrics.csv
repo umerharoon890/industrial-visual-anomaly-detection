@@ -1,0 +1,2 @@
+pixel_threshold,threshold_percentile,pixel_precision,pixel_recall,dice_score,iou,specificity,true_positive_pixels,false_positive_pixels,false_negative_pixels,true_negative_pixels
+0.6153337,99.5,0.6443246176446864,0.8384618810117563,0.7286843134626043,0.5731733834318343,0.9716083810201706,263599,145510,50785,4979594

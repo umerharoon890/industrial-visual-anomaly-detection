@@ -1,0 +1,3 @@
+model,pixel_roc_auc,pixel_average_precision
+Convolutional Autoencoder,0.6501249443280972,0.1397969279127642
+Pretrained ResNet Patch Features,0.9796828837476571,0.7505885028816994

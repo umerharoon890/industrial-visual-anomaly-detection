@@ -1,0 +1,35 @@
+{
+    "category": "transistor",
+    "backbone": "ResNet-18",
+    "feature_layer": "layer2",
+    "image_size": 256,
+    "feature_map_size": [
+        32,
+        32
+    ],
+    "feature_dimensions": 128,
+    "memory_bank_size": 10000,
+    "image_score_method": "feature_top_1_percent",
+    "image_score_threshold": 0.7934566617012024,
+    "pixel_threshold": 0.7064661979675293,
+    "pixel_threshold_percentile": 99.5,
+    "postprocessing": {
+        "enabled": true,
+        "minimum_component_area": 64,
+        "opening_kernel_size": 3,
+        "closing_kernel_size": 5
+    },
+    "final_image_metrics": {
+        "roc_auc": 0.89375,
+        "average_precision": 0.9110087713695678,
+        "accuracy": 0.88,
+        "precision": 0.9666666666666667,
+        "recall": 0.725,
+        "f1_score": 0.8285714285714286
+    },
+    "final_pixel_metrics": {
+        "pixel_roc_auc": 0.7366774043616238,
+        "pixel_average_precision": 0.313898295797502,
+        "defective_pixel_fraction": 0.04792861938476563
+    }
+}

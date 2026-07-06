@@ -1,0 +1,31 @@
+{
+    "categories_evaluated": [
+        "bottle",
+        "cable",
+        "capsule",
+        "carpet",
+        "grid",
+        "hazelnut",
+        "leather",
+        "metal_nut",
+        "pill",
+        "screw",
+        "tile",
+        "toothbrush",
+        "transistor",
+        "wood",
+        "zipper"
+    ],
+    "number_of_categories": 15,
+    "robustness_categories_evaluated": [
+        "bottle",
+        "cable",
+        "carpet"
+    ],
+    "memory_bank_size_per_category": 10000,
+    "image_size": 256,
+    "best_clean_category": "bottle",
+    "hardest_clean_category": "screw",
+    "most_robust_transform_by_mean_f1": "contrast_down",
+    "most_damaging_transform_by_mean_f1": "rotation_5_degrees"
+}

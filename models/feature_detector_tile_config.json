@@ -1,0 +1,35 @@
+{
+    "category": "tile",
+    "backbone": "ResNet-18",
+    "feature_layer": "layer2",
+    "image_size": 256,
+    "feature_map_size": [
+        32,
+        32
+    ],
+    "feature_dimensions": 128,
+    "memory_bank_size": 10000,
+    "image_score_method": "feature_top_1_percent",
+    "image_score_threshold": 0.7879797071218491,
+    "pixel_threshold": 0.7237727642059326,
+    "pixel_threshold_percentile": 99.5,
+    "postprocessing": {
+        "enabled": true,
+        "minimum_component_area": 64,
+        "opening_kernel_size": 3,
+        "closing_kernel_size": 5
+    },
+    "final_image_metrics": {
+        "roc_auc": 0.9797979797979798,
+        "average_precision": 0.9924540182280135,
+        "accuracy": 0.9230769230769231,
+        "precision": 0.9746835443037974,
+        "recall": 0.9166666666666666,
+        "f1_score": 0.9447852760736196
+    },
+    "final_pixel_metrics": {
+        "pixel_roc_auc": 0.8962291695645654,
+        "pixel_average_precision": 0.4249490632046789,
+        "defective_pixel_fraction": 0.07037979517227565
+    }
+}

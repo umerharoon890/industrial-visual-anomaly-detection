@@ -1,0 +1,35 @@
+{
+    "category": "zipper",
+    "backbone": "ResNet-18",
+    "feature_layer": "layer2",
+    "image_size": 256,
+    "feature_map_size": [
+        32,
+        32
+    ],
+    "feature_dimensions": 128,
+    "memory_bank_size": 10000,
+    "image_score_method": "feature_top_1_percent",
+    "image_score_threshold": 0.6209909230470657,
+    "pixel_threshold": 0.516758918762207,
+    "pixel_threshold_percentile": 99.5,
+    "postprocessing": {
+        "enabled": true,
+        "minimum_component_area": 64,
+        "opening_kernel_size": 3,
+        "closing_kernel_size": 5
+    },
+    "final_image_metrics": {
+        "roc_auc": 0.96875,
+        "average_precision": 0.9912285863689072,
+        "accuracy": 0.8940397350993378,
+        "precision": 0.9813084112149533,
+        "recall": 0.8823529411764706,
+        "f1_score": 0.9292035398230089
+    },
+    "final_pixel_metrics": {
+        "pixel_roc_auc": 0.9480549278173811,
+        "pixel_average_precision": 0.4972466173313178,
+        "defective_pixel_fraction": 0.020689705349751654
+    }
+}

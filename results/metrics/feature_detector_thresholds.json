@@ -1,0 +1,10 @@
+{
+    "category": "bottle",
+    "image_size": 256,
+    "memory_bank_size": 10000,
+    "image_score_method": "feature_top_1_percent",
+    "image_score_threshold": 0.7190231680870056,
+    "pixel_threshold_percentile": 99.5,
+    "pixel_threshold": 0.6153336763381958,
+    "normal_pixel_false_positive_rate": 0.005000044659870427
+}

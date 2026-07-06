@@ -1,0 +1,16 @@
+category,training_images,embedding_dimension,prototype_norm
+bottle,209,128,1.0
+cable,224,128,1.0
+capsule,219,128,0.9999999403953552
+carpet,280,128,1.0
+grid,264,128,0.9999999403953552
+hazelnut,391,128,1.0
+leather,245,128,0.9999999403953552
+metal_nut,220,128,1.0
+pill,267,128,1.0
+screw,320,128,1.0
+tile,230,128,0.9999999403953552
+toothbrush,60,128,1.0
+transistor,213,128,1.0
+wood,247,128,1.0
+zipper,240,128,1.0

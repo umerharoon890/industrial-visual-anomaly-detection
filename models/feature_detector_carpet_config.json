@@ -1,0 +1,35 @@
+{
+    "category": "carpet",
+    "backbone": "ResNet-18",
+    "feature_layer": "layer2",
+    "image_size": 256,
+    "feature_map_size": [
+        32,
+        32
+    ],
+    "feature_dimensions": 128,
+    "memory_bank_size": 10000,
+    "image_score_method": "feature_top_1_percent",
+    "image_score_threshold": 0.6521247327327728,
+    "pixel_threshold": 0.5907754302024841,
+    "pixel_threshold_percentile": 99.5,
+    "postprocessing": {
+        "enabled": true,
+        "minimum_component_area": 64,
+        "opening_kernel_size": 3,
+        "closing_kernel_size": 5
+    },
+    "final_image_metrics": {
+        "roc_auc": 1.0,
+        "average_precision": 1.0,
+        "accuracy": 0.9401709401709402,
+        "precision": 0.9270833333333334,
+        "recall": 1.0,
+        "f1_score": 0.9621621621621622
+    },
+    "final_pixel_metrics": {
+        "pixel_roc_auc": 0.9795344214873511,
+        "pixel_average_precision": 0.6217593581608536,
+        "defective_pixel_fraction": 0.016016251001602564
+    }
+}

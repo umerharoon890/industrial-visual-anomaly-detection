@@ -1,0 +1,35 @@
+{
+    "category": "wood",
+    "backbone": "ResNet-18",
+    "feature_layer": "layer2",
+    "image_size": 256,
+    "feature_map_size": [
+        32,
+        32
+    ],
+    "feature_dimensions": 128,
+    "memory_bank_size": 10000,
+    "image_score_method": "feature_top_1_percent",
+    "image_score_threshold": 0.7481254577636719,
+    "pixel_threshold": 0.6811984777450562,
+    "pixel_threshold_percentile": 99.5,
+    "postprocessing": {
+        "enabled": true,
+        "minimum_component_area": 64,
+        "opening_kernel_size": 3,
+        "closing_kernel_size": 5
+    },
+    "final_image_metrics": {
+        "roc_auc": 0.9921052631578947,
+        "average_precision": 0.997582039522885,
+        "accuracy": 0.9493670886075949,
+        "precision": 0.9375,
+        "recall": 1.0,
+        "f1_score": 0.967741935483871
+    },
+    "final_pixel_metrics": {
+        "pixel_roc_auc": 0.9390146999602824,
+        "pixel_average_precision": 0.49155274452794184,
+        "defective_pixel_fraction": 0.038625403295589396
+    }
+}

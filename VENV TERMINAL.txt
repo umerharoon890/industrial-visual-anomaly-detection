@@ -1,0 +1,3 @@
+cd "D:\PROJECTS\ANOMALY DETECTION"
+.\.venv\Scripts\Activate.ps1
+streamlit run app\streamlit_app.py

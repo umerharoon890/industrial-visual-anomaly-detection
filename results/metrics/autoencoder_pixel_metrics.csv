@@ -1,0 +1,3 @@
+evaluation_scope,pixel_roc_auc,pixel_average_precision,defective_pixel_fraction
+all_test_images,0.6501249443280972,0.13979692791276427,0.05779661615210843
+defective_images_only,0.6512415658260143,0.17756041107089654,0.0761447482638889
